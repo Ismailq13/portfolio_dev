@@ -1,0 +1,5 @@
+# Library hasil npm install: besar dan bisa diunduh ulang, jangan di-commit
+node_modules/
+
+# Berisi password database, rahasia
+.env
