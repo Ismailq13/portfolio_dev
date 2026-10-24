@@ -18,11 +18,13 @@ tren bulanan, kategori, wilayah, dan produk teratas.
    - `npm install`
    - `psql -U postgres -d dashboard_penjualan -f scripts/schema.sql`
    - `npm run import`
+5. Di folder `client`: salin `.env.example` menjadi `.env`, lalu `npm install` dan `npm run dev`.
+   Buka http://localhost:5173 (backend harus jalan di port 3000).
 
 ## Progres
 
 - [x] Fase 1: data masuk ke PostgreSQL
-- [ ] Fase 2: backend API
-- [ ] Fase 3: frontend
+- [x] Fase 2: backend API (Express, arsitektur berlapis, 7 endpoint)
+- [x] Fase 3: frontend React + Vite + Tailwind (kartu KPI, tabel produk, loading dan error)
 - [ ] Fase 4: grafik dan filter
 - [ ] Fase 5: deploy
